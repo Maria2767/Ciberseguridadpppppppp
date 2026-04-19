@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding-top: 60px;
+    font-family: 'Poppins', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* MENU */
+.menu{
+    background: #DBCFB8;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+}
+
+a{
+    color: #916738;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.dropbtn{
+    background: #916738;
+    color: white;
+    padding: 6px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* HERO */
+.hero-imagen{
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://lh3.googleusercontent.com/d/1x-J7l0lZ_nwaxXJSDENMBHm94LCOQDKN');
+    background-size: cover;
+    background-position: center;
+}
+
+.contenido-hero h1{
+    font-size: 1.8rem;
+}
+
+/* SECCIONES */
+.banner,
+.logografia,
+.caracteristica,
+.reglas,
+.identidad,
+.proposito,
+.conclusion{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.banner-texto,
+.banner-texto2,
+.bannertexto3,
+.banner-textoreglas,
+.banner-textoidentidad,
+.bannertextoproposito,
+.banner-textoconclusion{
+    width: 100%;
+    margin: 0;
+}
+
+/* IMAGENES */
+img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* FODA */
+.fodacuerpolista{
+    padding: 20px;
+}
+
+.fodafila{
+    flex-direction: column;
+    padding: 20px;
+}
+
+.fodaimagenpeque{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* FAVORITOS */
+.contenedor-tarjetas{
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tarjeta-fav{
+    width: 100%;
+}
+
+/* GALERIA */
+.contenedor{
+    flex-direction: column;
+    gap: 20px;
+}
+
+.galeria{
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info{
+    width: 100%;
+}
+
+.cards{
+    grid-template-columns: 1fr;
+}
+
+/* FORMACION */
+.formacion{
+    flex-direction: column;
+    padding: 30px;
+}
+
+/* TIEMPO */
+.tiempo .contenedor{
+    flex-direction: column;
+}
+
+.tiempo .bloque{
+    width: 100%;
+}
+
+/* SMART */
+.smartrow{
+    flex-direction: column;
+}
+
+.smartcircle{
+    width: 120px;
+    height: 120px;
+    font-size: 40px;
+}
+
+.smartbox{
+    padding: 20px;
+}
